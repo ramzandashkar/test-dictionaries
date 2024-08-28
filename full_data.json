@@ -1,0 +1,83 @@
+[
+    {
+        "model": "dictionaries.dictionary",
+        "pk": 1,
+        "fields": {
+            "code": "dict001",
+            "name": "Справочник 1",
+            "description": "Описание справочника 1"
+        }
+    },
+    {
+        "model": "dictionaries.dictionary",
+        "pk": 2,
+        "fields": {
+            "code": "dict002",
+            "name": "Справочник 2",
+            "description": "Описание справочника 2"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryversion",
+        "pk": 1,
+        "fields": {
+            "dictionary": 1,
+            "version": "1.0",
+            "start_date": "2024-08-01"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryversion",
+        "pk": 2,
+        "fields": {
+            "dictionary": 1,
+            "version": "2.0",
+            "start_date": "2024-08-15"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryversion",
+        "pk": 3,
+        "fields": {
+            "dictionary": 2,
+            "version": "1.0",
+            "start_date": "2024-08-25"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryelement",
+        "pk": 1,
+        "fields": {
+            "version": 1,
+            "code": "elem001",
+            "value": "Элемент 1 версии 1.0 справочника 1"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryelement",
+        "pk": 2,
+        "fields": {
+            "version": 1,
+            "code": "elem002",
+            "value": "Элемент 2 версии 1.0 справочника 1"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryelement",
+        "pk": 3,
+        "fields": {
+            "version": 2,
+            "code": "elem003",
+            "value": "Элемент 1 версии 2.0 справочника 1"
+        }
+    },
+    {
+        "model": "dictionaries.dictionaryelement",
+        "pk": 4,
+        "fields": {
+            "version": 3,
+            "code": "elem004",
+            "value": "Элемент 1 версии 1.0 справочника 2"
+        }
+    }
+]
